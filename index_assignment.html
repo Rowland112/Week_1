@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="utf-8">
+    <meta name=" viewport" content ="width=device-width, initial-scale=1">
+    <meta name=" description" content ="creating a pizza webpage">
+    <meta name = "robots" content="noindex, nofollow">
+    <title> week 4 | Pizza shop</title>
+    <!--add our font-->
+    <link rel="preconnect" href="https://fonts,googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <!-------add our css-->
+    <link rel="stylesheet" href="./CSS/assignment_style.css">
+</head>
+<body>
+<header>
+    <div>
+        <a href="index_assignment.html"><img src="./img/logo.png" alt="header logo"></a>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="index_assignment.html">HOME</a></li>
+            <li><a href="index_assignment.html">PRIVACY</a></li>
+            <li><a href="index_assignment.html">ABOUT</a></li>
+            <li><a href="index_assignment.html">CONTACT US</a></li>
+        </menu>
+    </nav>
+</header>
+<section class="lesson-masthead">
+    <h1>Welcome to Pizzaman Shop</h1>
+</section>
+<div class="container">
+    <main>
+    <section>
+        <h2>Order Your Pizza</h2>
+    </section>
+        <section>
+            <div>
+                <img src="./img/img1.jpg" alt="pizza">
+                <button class="btn">Order</button>
+            </div>
+            <div>
+                <img src="./img/img2.jpg" alt="pizza">
+                <button class="btn">Order</button>
+            </div>
+            <div>
+                <img src="./img/img3.jpg" alt="pizza">
+                <button class="btn">Order</button>
+            </div>
+        </section>
+    <section>
+        <div>
+            <form>
+                <label>First Name: <input type="text" placeholder="Enter your first name" required></label><br>
+                <label>Last Name: <input type="text" placeholder="Enter your last name" required></label><br>
+                <label>Phone Number: <input type="tel" placeholder="Enter your Phone number" required></label><br>
+                <label>Address: <input type="text" placeholder="Enter your Address" required></label><br>
+                <label>Email Address: <input type="email" placeholder="Enter your email address" required></label><br>
+                <label for="pizza-type">Select Pizza Type:</label>
+                <select id="pizza-type">
+                    <option value="hawaiian">hawaiian</option>
+                    <option value="margherita">Margherita</option>
+                    <option value="mushroom">mushroom</option>
+                    <!-- Add more pizza options as needed -->
+                </select><br>
+                <label for="size">Select Size:</label>
+                <select id="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select><br>
+                <label for="crust">Select Crust:</label>
+                <select id="crust">
+                    <option value="thin">Thin Crust</option>
+                    <option value="thick">Thick Crust</option>
+                </select><br>
+                <label for="topping1">Select Toppings:</label>
+                <input type="checkbox" id="topping1" value="pepperoni">
+                <label for="topping1">Pepperoni</label>
+                <input type="checkbox" id="topping2" value="mushrooms">
+                <label for="topping2">Mushrooms</label><br>
+                <!-- Add more toppings as needed -->
+
+                <label for="quantity">Select Quantity:</label>
+                <input type="number" id="quantity" min="1" max="10" value="1"><br>
+                <a href="index_assignment.html"><input type="submit" value="Place Order"></a>
+            </form>
+        </div>
+    </section>
+    </main>
+</div>
+<footer>
+    <div>
+        <a href="index_assignment.html"><img src="./img/logo.png" alt="header logo"></a>
+    </div>
+    <div>
+        <form>
+            <textarea placeholder="Write a Message"></textarea><br>
+            <input type="submit" value="send">
+        </form>
+    </div>
+</footer>
+</body>
+</html>
