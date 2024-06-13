@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+h1{
+    font-size: 3em;
+    font-family: "Arial Black";
+    color: #8338ec;
+}
+h2{
+    font-size: 2em;
+    font-family: "Times New Roman";
+    color: #8338ec;
+}
+h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+}
+p, a, li, figcaption{
+    font-family: "Roboto", sans-serif;
+    font-size:  1.2em; /** this equal about 20px **/
+    text-decoration: none;
+}
+/** now our layout **/
+
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: #8338ec;
+    height: 125px;
+}
+header> div{
+    flex-grow: 1;
+    width: auto;
+    height: 115px;
+}
+header> div > a > img{
+    width: auto;
+    height: 100%;
+
+}
+/* or header > div + nav */
+header> nav > menu{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+header > nav > menu > li{
+    padding: 0 10px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+/*masthead*/
+.lesson-masthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    height: 50vh;
+}
+.lesson-masthead > h1{
+    color: #8338ec;
+    font-size: 5em;
+}
+.container{
+    display: flex;
+}
+/*main*/
+main{
+    width: 75%;
+}
+main > section{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+main > section > div{
+    padding: 15px;
+}
+main > section > div > img{
+    width: 100%;
+    height: auto;
+}
+main > section + section + section{
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+}
+/*aside*/
+aside{
+    width: 25%;
+    background-color: #ececec;
+    padding: 2% 0%;
+}
+aside > article{
+    width: 90%;
+    height: auto;
+    margin:auto;
+}
+aside article img{
+    width: 100%;
+    height: auto;
+}
+/*footer*/
+footer{
+    align-items: center;
+    display: flex;
+    background-color: #8338ec;
+    height: 50vh;
+}
+footer > div > img{
+    width: auto;
+    height: 100%;
+}
