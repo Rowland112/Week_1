@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("../img/star wars.jpg");
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main.poster{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.header_1{
+    margin-left: 103vh;
+    color: #b4a078;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.header_2{
+    margin-left: 90vh;
+    margin-top: 0;
+    color: #b4a078;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.header_3{
+    margin-left: 83vh;
+    margin-top: 0;
+    color: #b4a078;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.body1{
+    padding-left: 90vh;
+    color: #b4a078;
+}
+.body2, .body3, .body4{
+    font-size: 0.5rem;
+    padding-left: 80vh;
+    padding-right: 70vh;
+    color: #b4a078;
+}
+.actors, .david, .kenny, .directed ,.produced{
+    font-size: 1rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-left: 80vh;
+    margin-right: 80vh;
+}
+footer > div{
+    width: 25%;
+}
+.pg{
+    font-size: 0.5rem;
+    color: #b4a078;
+}
+.film{
+    font-size: 0.2rem;
+    color: #b4a078;
+}
+.film1{
+    font-size: 0.3rem;
+    color: #b4a078;
+}
+.film2{
+    font-size: 0.1rem;
+    color: #b4a078;
+}
+.date{
+    font-size: 0.5rem;
+    color: #b4a078;
+}
+.link{
+    font-size: 0.4rem;
+    color: #b4a078;
+}
+.century{
+    font-size: 0.4rem;
+    color: #b4a078;
+}
