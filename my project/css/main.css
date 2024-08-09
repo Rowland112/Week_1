@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header and Footer */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+p,a,li{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    height: 125px;
+    align-items: center;
+    background-color:  #125784;
+    column-gap: 440px;
+}
+header > div{
+    width: auto;
+    height: auto;
+}
+.logo-container{
+    height: 110px;
+    flex-grow: 1;
+}
+.logo-container a img{
+    height: 100%;
+    width: auto;
+}
+header > div > nav{
+    display: flex;
+    text-decoration: none;
+}
+header > div > nav >li{
+    list-style: none;
+    display: flex;
+    padding: 0px 15px;
+    border-right: solid 1px #f8f8f8;
+}
+header > div > nav >li:last-child{
+    border-right: none;
+}
+header > div > nav >li >a{
+    color: #f8f8f8;
+}
+header > div > form > input::placeholder{
+    color: #020307;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    height: 125px;
+    align-items: center;
+    column-gap: 100px;
+    background-color: #0e0e0e;
+    color: #f8f8f8;
+}
+footer > div{
+    width: auto;
+    height: auto;
+}
+footer > div + div > nav{
+    display: flex;
+    text-decoration: none;
+}
+footer > div + div > nav > li{
+    list-style: none;
+    display: flex;
+    padding: 0px 15px;
+    border-right: solid 1px #f8f8f8;
+}
+
+/* Main Product Page */
+.product-page {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex Container for Product Details */
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: space-between;
+}
+
+/* Image Styles */
+.product-image {
+    flex: 1;
+    max-width: 300px;
+}
+
+.product-image img {
+    width: 100%; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+/* Product Details */
+.product-details {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-price {
+    font-size: 1.5em;
+    color: #28a745; /* Green color for price */
+    margin: 10px 0;
+}
+
+/* Button Styles */
+.add-to-cart-btn {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .product-container {
+        flex-direction: column; /* Stack elements on small screens */
+        align-items: center; /* Center align items */
+    }
+    .product-details {
+        margin-left: 0; /* Remove left margin for small screens */
+    }
+}
+logbase{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
